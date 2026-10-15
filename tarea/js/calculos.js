@@ -16,3 +16,4 @@ const reporte = (estudiante) => {
 
     return `${nombre}: ${prom.toFixed(1)} - ${estado(prom)}`;
 };
+export { promedio, estado, reporte };
